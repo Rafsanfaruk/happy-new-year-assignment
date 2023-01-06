@@ -1,4 +1,10 @@
-.banner-container{
+body{
+    margin: 0;
+}
+/* p
+    color: dimgrey;
+}{ */
+.top-banner{
     display: flex;
     flex-direction:row
     width:100%;
@@ -12,16 +18,32 @@
     padding-right: 10%;
     
 }
-.title{
+ .title{ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #151414;
-    font-weight: 700;
+    
+    /* color: #151414; */
+    font-weight: 600;
     font-size: 35px;
     margin: 20px 0;
+    
 }
 .btn-primary{
+    text-decoration: none;
     padding: 10px 25px;
     background-color: #F15B22;
+    border-radius: 5px;
     color: white;
+    font-weight: 600;
+    
+}
+section{
+    
+    padding-bottom: 150px;
+}
+.type{
+list-style-image: none
+}
+.My failures{
+    display: flex;
     
 }
